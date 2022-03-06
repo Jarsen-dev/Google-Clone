@@ -119,7 +119,19 @@ header {
     width: 1.9rem;
     height: 1.9rem;
 }
-
+.input-text {
+    border: none;
+    outline: none;
+    height: 80%;
+    width: 100%;
+    font-size: var(--lg);
+}
+.input-text:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.input-text::-webkit-search-cancel-button {
+    opacity: 0;
+}
 .main-mic-icon {
     display: flex;
     justify-content: center;
